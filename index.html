@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css"> <!-- Include the fonts.css file -->
+    <title>Hamza page</title>
+
+    <style>
+        
+        body {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        :root {
+            --rgba-color: rgba(47, 17, 255, 0.7);
+            --hsla-color: hsla(120, 100%, 50%, 0.7);
+            --hex-color: #00ff00;
+            --named-color: aqua;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+            color: var(--named-color);
+        }
+
+        #link1 {
+            color: burlywood;
+        }
+
+        .aside-link {
+            color: var(--named-color);
+        }
+
+        aside ul li a{
+            color: var(--hsla-color);
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 30%;
+        }
+
+        section {
+            width: 65%;
+        }
+
+        section h2 {
+            color: var(--rgba-color);
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: var(--rgba-color);
+            color: #fff;
+            width: 75%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hamza page</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a style="color: red;" href="#">home</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a id="link1" class="aside-link">Link 1</a></li>
+                <li><a class="aside-link" href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+        <section>
+            <section>
+                <h2>Article Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit voluptatum nisi earum mollitia laudantium eligendi numquam tempora nobis, laborum sed quasi eveniet amet possimus commodi expedita maiores ut corrupti..</p>
+            </section>
+            <section>
+                <h2>Article Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit voluptatum nisi earum mollitia laudantium eligendi numquam tempora nobis, laborum sed quasi eveniet amet possimus commodi expedita maiores ut corrupti..</p>
+            </section>
+            <section>
+                <h2>Article Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit voluptatum nisi earum mollitia laudantium eligendi numquam tempora nobis, laborum sed quasi eveniet amet possimus commodi expedita maiores ut corrupti..</p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
