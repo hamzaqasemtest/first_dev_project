@@ -1,3 +1,3 @@
 # first_dev_project
 
-![Scaled Image](pic.png){width=50%}
+![Scaled Image](pic.png)
