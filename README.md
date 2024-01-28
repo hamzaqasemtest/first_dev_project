@@ -1,10 +1,10 @@
 # First Project
 
-Overview
+## Overview
 
 This repository contains a simple HTML website designed to practice essential web development concepts, including CSS styling with inline, internal, and external styles, as well as the use of semantic HTML tags.
 
-Structure
+## Structure
 
 The website follows a basic structure:
 
