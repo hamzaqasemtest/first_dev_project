@@ -16,7 +16,7 @@ This structure represents the hierarchy of the HTML elements used in the project
 The structure of body consists of three elements:  
 
 
-- **header**: which includes the navbar 
+- **header**: which includes the navbar.
 
 - **main**: which has the sidebar and main sections.
 
