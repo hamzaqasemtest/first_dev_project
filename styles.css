@@ -1,3 +1,112 @@
-nav ul li {
-    color: blue;
+
+:root {
+    --primary-color: #2f11ff;
+    --secondary-color: #00ff00;
+    --bg-color: #fff;
+    --paragraph-color: #555;
+    --item-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --common-border-radius: 8px;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    color: var(--paragraph-color);
+}
+
+/* header */
+
+header, main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: var(--bg-color);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* main */
+
+
+main {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+main aside {
+    flex: 1;
+    max-width: 25%;
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: var(--common-border-radius);
+    box-shadow: var(--item-box-shadow);
+}
+
+main aside h2 {
+    color: var(--primary-color);
+}
+
+
+main .main-section {
+    flex: 3;
+    max-width: 75%;
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: var(--common-border-radius);
+    box-shadow: var(--item-box-shadow);
+}
+
+main .main-section section h2 {
+    color: var(--primary-color);
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--primary-color);
+    border-radius: var(--common-border-radius);
+    box-shadow: var(--item-box-shadow);
+}
+
+footer p {
+    color: #fff;
+}
+
